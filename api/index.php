@@ -1,6 +1,6 @@
 <?php session_start();
 // Database Connection
-include('bbs/includes/config.php');
+include('includes/config.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +42,7 @@ include('bbs/includes/config.php');
 
 
     
-    <?php include_once("bbs/includes/navbar.php");?>
+    <?php include_once("includes/navbar.php");?>
     
     <div class="hero-slide owl-carousel site-blocks-cover">
       <div class="intro-section" style="background-image: url('images/hero_1.jpg');">
@@ -202,7 +202,7 @@ while($result=mysqli_fetch_array($query)){
       </div>
     </div>
 
-    <?php include_once("bbs/includes/footer.php");?>
+    <?php include_once("includes/footer.php");?>
     
 
   </div>
